@@ -1,0 +1,9 @@
+[project]
+name = "ad-piracy-watcher"
+version = "0.1.0"
+description = "Crawls blacklisted sites and detects legitimate brand ads"
+requires-python = ">=3.13"
+dependencies = [
+    "playwright>=1.60.0",
+    "python-dotenv>=1.2.2",
+]
